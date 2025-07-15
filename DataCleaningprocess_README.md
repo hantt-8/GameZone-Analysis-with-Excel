@@ -1,21 +1,17 @@
-# We’ll use a sample Excel dataset from a company called GameZone.
-# They were founded in 2018 and sell gaming products worldwide — both new and refurbished.
-# Most of their sales happen through their website, but they also have a mobile app and use different marketing channels.
-
-# This dataset has about 20,000 records.
+We’ll use a sample Excel dataset from a company called GameZone.
+They were founded in 2018 and sell gaming products worldwide — both new and refurbished.
+Most of their sales happen through their website, but they also have a mobile app and use different marketing channels.
+This dataset has about 20,000 records.
 
 #DATA CLEANING
 *I. Conceptualize the data*
+
 Now — in this step, identify 3 Key items:
-	1.	Grain – What does each row represent?
-→ one order (Order ID)
-	2.	Key Metric – What number matters most?
-→ Order price in USD
-	3.	Key Dimensions – Descriptive details
-→ Date, Product, Platform, Channel, Country
+	1.	Grain – What does each row represent? → one order (Order ID)
+	2.	Key Metric – What number matters most? → Order price in USD
+	3.	Key Dimensions – Descriptive details → Date, Product, Platform, Channel, Country
 
 If I were to tell you a quick story from this dataset, it would go like this: 
-
 User 175e placed an order on December 24th, 2020. It was shipped two days later.
 They bought a Nintendo Switch for about $170, through the website, using an affiliate marketing link.
 We don’t know how the account was created, but we do know they’re located in the United States.
